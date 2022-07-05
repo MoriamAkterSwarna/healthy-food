@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -118,4 +119,45 @@ h3 {
 .recipie-title p {
     font-size: 25px;
     color: rgb(93, 87, 87);
+}
+
+.followers {
+    display: flex;
+    box-shadow: 0 0 2px 2px gainsboro;
+    margin: 75px;
+    border-radius: 30px;
+}
+
+.amount {
+    padding: 20px 10%;
+}
+
+.amount p {
+    font-size: 18px;
+}
+
+.account {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+footer {
+    background-color: black;
+    height: 220px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 45px;
+    color: gray;
+}
+
+footer span {
+    color: tomato;
+}
+
+footer p {
+    color: rgb(240, 232, 232);
 }
